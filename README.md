@@ -10,7 +10,9 @@
 > **"Nonvolatile Resistive Memory Technology for Deep Neural Network Hardware Applications"**
 > in *Nonvolatile Memory and Selector Devices* (Wiley, 2024).
 > [[Publisher Link]](https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527847419.ch22)
-
+> For further details on the device model and the fully parallel crossbar update scheme, please refer to the following publications:
+> - Choi et al., **"Update Disturbance-Resilient Analog ReRAM Crossbar Arrays for In-Memory Deep Learning Accelerators"**, *Advanced Science*, 2026. [[DOI]](https://doi.org/10.1002/advs.202504578)
+> - Rasch et al., **"Fast Offset Corrected In-Memory Training"**, *arXiv*, 2023. [[arXiv]](https://arxiv.org/abs/2303.04721)
 ---
 
 ## Overview
@@ -162,13 +164,18 @@ Accuracy will decrease when device nonidealities (C2C, D2D variation) are enable
 If you use this code in your research, please cite:
 
 ```bibtex
-@incollection{choi2024nonvolatile,
-  author    = {Choi, Wooseok},
-  title     = {Nonvolatile Resistive Memory Technology for Deep Neural Network Hardware Applications},
-  booktitle = {Nonvolatile Memory and Selector Devices},
-  publisher = {Wiley},
-  year      = {2024},
-  doi       = {10.1002/9783527847419.ch22}
+@inbook{doi:https://doi.org/10.1002/9783527847419.ch22,
+author = {Choi, Wooseok and Ram, Mamidala Saketh and Falcone, Donato F. and Stecconi, Tommaso and Lombardo, Davide G. F. and La Porta, Antonio and Horst, Folkert and Jubin, Daniel and Bragaglia, Valeria and Offrein, Bert Jan},
+publisher = {John Wiley & Sons, Ltd},
+isbn = {9783527847419},
+title = {Nonvolatile Resistive Memory Technology for Deep Neural Network Hardware Applications},
+booktitle = {Nonvolatile Memory and Selector Devices},
+chapter = {22},
+pages = {653-700},
+doi = {https://doi.org/10.1002/9783527847419.ch22},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527847419.ch22},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/9783527847419.ch22},
+year = {2026},
 }
 
 @article{choi2026update,
