@@ -1,7 +1,7 @@
 # Analog In-Memory Training Simulation of Deep Neural Networks
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2020b%2B-orange?logo=mathworks)](https://www.mathworks.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Book Chapter](https://img.shields.io/badge/Book%20Chapter-Wiley-blue)](https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527847419.ch22)
 
 > MATLAB simulator for analog in-memory training of deep neural networks, using a **resistive memory device softbounds model** and a **fully parallel crossbar weight update scheme**.
