@@ -4,13 +4,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Book Chapter](https://img.shields.io/badge/Book%20Chapter-Wiley-blue)](https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527847419.ch22)
 
-> MATLAB simulator for analog in-memory training of deep neural networks, using a **nonlinear resistive memory device model** and a **fully parallel crossbar weight update scheme**.
+> MATLAB simulator for analog in-memory training of deep neural networks, using a **resistive memory device softbounds model** and a **fully parallel crossbar weight update scheme**.
 >
-> This code accompanies the book chapter:
-> **"Nonvolatile Resistive Memory Technology for Deep Neural Network Hardware Applications"**
-> in *Nonvolatile Memory and Selector Devices* (Wiley, 2024).
-> [[Publisher Link]](https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527847419.ch22)
 > For further details on the device model and the fully parallel crossbar update scheme, please refer to the following publications:
+> - Choi et al., **"Nonvolatile Resistive Memory Technology for Deep Neural Network Hardware Applications"**,in *Nonvolatile Memory and Selector Devices* (Wiley, 2026). [[Publisher Link]](https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527847419.ch22)
 > - Choi et al., **"Update Disturbance-Resilient Analog ReRAM Crossbar Arrays for In-Memory Deep Learning Accelerators"**, *Advanced Science*, 2026. [[DOI]](https://doi.org/10.1002/advs.202504578)
 > - Rasch et al., **"Fast Offset Corrected In-Memory Training"**, *arXiv*, 2023. [[arXiv]](https://arxiv.org/abs/2303.04721)
 ---
